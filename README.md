@@ -1,2 +1,2 @@
-# C$^2$Net
+# C^2Net
 Source codes and results will be released upon publication.
