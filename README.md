@@ -1,2 +1,2 @@
 # C<sup>2</sup>Net
-Source codes and results will be released soon.
+This work has been accepted by Displays and the codes will be made public soon.
