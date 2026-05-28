@@ -19,7 +19,7 @@ RGB-P camouflaged object detection (COD) aims to identify objects that seamlessl
 <p align="center">
     <img src="imgs/Framework.png"/> <br />
     <em> 
-    Figure 1: The overall architecture of our proposed C 2Net, which comprises two components: a camouflage-aware low-light enhancement (CaLLE) module and a Detector. The CaLLE module utilizes camouflage-aware reverse attention module (CRAM) to inject camouflage-aware semantics into an LLE process. The Detector utilizes a two-stream encoder to generate enhanced RGB and polarization features, four cross-attentional Mamba fusion (CAMF) modules to fuse multi-modal features, and three ConvBlocks to aggregate multi-stage features in a top-down manner.
+    Figure 1: The overall architecture of our proposed C<sup>2</sup>Net, which comprises two components: a camouflage-aware low-light enhancement (CaLLE) module and a Detector. The CaLLE module utilizes camouflage-aware reverse attention module (CRAM) to inject camouflage-aware semantics into an LLE process. The Detector utilizes a two-stream encoder to generate enhanced RGB and polarization features, four cross-attentional Mamba fusion (CAMF) modules to fuse multi-modal features, and three ConvBlocks to aggregate multi-stage features in a top-down manner.
     </em>
 </p>
 
