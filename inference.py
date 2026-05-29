@@ -28,7 +28,7 @@ def inference(datasets):
 			dop = dop.unsqueeze(0).to(cfg.device)
 			gt = gt_origin.to(cfg.device)
 			out1, out2, out3, out4, e_x, x_r, x_cod = model(img, dop)
-			out1 = F.interpolate(out1, size=gt.shape[1:], mode='bilinear', align_corners=True)
+			out1 = F.interpolate(out1, size=gt_origin.shape[1:], mode='bilinear', align_corners=True)
 			out1 = torch.sigmoid(out1) * 255
 			out1 = out1.squeeze(0).squeeze(0).detach().cpu().numpy().astype(np.uint8)
 			# save preds
